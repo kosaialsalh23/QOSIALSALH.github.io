@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie-edge"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>تطبيقات الذكاء الاصطناعي</title>
+</head>
+<body>
+    <!-- navbar section -->
+     <nav>
+        <div class="logo">
+           <img src="images/logo.jpg" alt="شعار الموقع" class="logo">
+           <h4> الذكاء الاصطناعي</h4>
+        </div>
+        <ul class="nav-items">
+           <li class="nav-item">
+            <a href="Home.html" class="nav-link">الصفحة الرئيسية</a>
+           </li>
+            <li class="nav-item">
+            <a href="aboutUs.html"class="nav-link">من نحن </a>
+           </li>
+            <li class="nav-item">
+            <a href="apps.html"class="nav-link">التطبيقات</a>
+           </li>
+            <li class="nav-item">
+            <a href="add_app.html"class="nav-link">التطبيقات</a>
+           </li>
+
+        </ul>
+     </nav>
+     <!--جسم الموقع-->
+      <header>
+        <h1>مرحبا بكم في موقعنا تطبيقات الذكاء الاصطناعي</h1>
+    </header>
+    <section class="hero">
+        <div class="hero-section">
+            <div class="content">
+                <h4>تطبيقات الذكاء الاصطناعي</h4>
+                <h2> اسماء الطلاب</h2>
+         
+        <ol>
+            <li>lamia_152882 - لمياء غاندي</li>
+            <li> hala_309236 - حلا الرفاعي</li>
+            <li> Ghaith_196901 -  غيث حسن المصطفى</li>
+            <li>raghad_232564 - رغد التمر</li>
+            <li>louy_232712 - لؤي كشول</li>
+            <li>baraa_364872 - براء ذهبيه</li>
+        </ol>
+        <p>رابط النشر: <a href="https://www.aiwebsite.com" target="_blank">www.aiwebsite.com</a></p>
+        <p> هذا المشروع يهدف لتعريف المستخدم بتطبيقات الذكاء الاصطناعي</p>
+        
+        
+            <a href="aboutUs.html"> 
+        <button>من نحن </button>
+            </a>
+
+       
+            </div>
+            <div class="hero-image">
+             <img src="images/pic1.jpg"alt="photo">
+            </div>
+            </div>
+        </div>
+    </section>
+   <!--صفحة من نحن-->
+   <section class="features">
+    <div class="features-section">
+        <h4>من نحن؟</h4>
+        <div>
+        <p>نحن فريق من المبدعين و المهتمين بعالم التكنولوجيا الحديثة, نسعى لتبسيط مفهوم الذكاء الاصطناعي وجعله في متناول الجميع.</p>
+        <p>يهدف موقعنا الى تعريف الزوار بأبرز التطبيقات الذكية التي تسخدم في حياتنا اليومية, وشرح الية عملها بطريقة سهلة وواضحة.</p>
+         <p>نعمل على جمع اهم المعلومات حول الرامج والتقنيات التي تعتمد على الذكاء الاصطناعي, مع توفير مقارنة بين مميزاتها واستخداماتها في مجالات متعددة مثل التعليم,الطب, الأعمال ,والترفيه</p>
+         <p>رؤيتنا هي ان يكون هذا الموقع بوابة معرفية تساعد المستخدمين على فهم كيف يمكن للذكاء الاصطناعي ان يجعل الحياة اكثر كفاءة وابتكاراً</p>
+
+        <div class="qualitys">
+            <div class="quality">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>email</h3>
+                <p>للتواصل عبر الايميل</p>
+            </div>
+             <div class="quality">
+<i class="fa-regular fa-paper-plane"></i>
+<h3>phone</h3>
+                <p>للتواصل عبر الهاتف</p>
+            </div>
+            
+        </div>
+    </div>
+
+   </section>
+   <!--الصفحة الثالة-->
+       
+  <nav>
+    <ul class="nav-items">
+      <li><a href="home.html">الرئيسية</a></li>
+      <li><a href="aboutUs.html">من نحن</a></li>
+      <li><a href="apps.html" class="active">التطبيقات</a></li>
+      <li><a href="add_app.html">إضافة تطبيق</a></li>
+    </ul>
+  </nav>
+
+  
+  <section class="apps">
+    <div class="apps-1">
+      <h2>جدول التطبيقات</h2>
+
+      <table>
+        <tr>
+          <th>اختيار</th>
+          <th>مجاني / غير مجاني</th>
+          <th>مجال الاستخدام</th>
+          <th>اسم الشركة المطورة</th>
+          <th>اسم التطبيق</th>
+          <th>إظهار التفاصيل</th>
+        </tr>
+
+        <!-- Canva -->
+        <tr>
+          <td><input type="radio" name="app"></td>
+          <td>مجاني</td>
+          <td>التصميم الجرافيكي</td>
+          <td>Canva Pty Ltd</td>
+          <td>Canva</td>
+          <td><input type="checkbox" onclick="toggleDetails('canvaDetails', this)"></td>
+        </tr>
+        <tr id="canvaDetails" class="details">
+          <td colspan="6">
+            <strong>عنوان الموقع الإلكتروني:</strong> 
+            <a href="https://www.canva.com" target="_blank">www.canva.com</a><br>
+            <strong>شرح مختصر:</strong> أداة تصميم سهلة لإنشاء تصاميم احترافية بدون خبرة مسبقة.<br>
+            <div class="MEDIA">
+                <div class="MEDIA-ITEM">
+                <strong> صورة:</strong>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0Vc94RC5Uufllrulz7Ud18jbX8gEmmezoQ&s" width="80">
+                </div>
+                <div class="MEDIA-ITEM">
+                    <strong>فيديو:</strong><br>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/Nl2gLi1MD04" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+          </td>
+        </tr>
+        <!-- ChatGPT -->
+        <tr>
+          <td><input type="radio" name="app"></td>
+          <td>مجاني جزئياً</td>
+          <td>الذكاء الاصطناعي</td>
+          <td>OpenAI</td>
+          <td>ChatGPT</td>
+          <td><input type="checkbox" onclick="toggleDetails('chatgptDetails', this)"></td>
+        </tr>
+        <tr id="chatgptDetails" class="details">
+          <td colspan="6">
+            <strong>عنوان الموقع الإلكتروني:</strong> 
+            <a href="https://chat.openai.com" target="_blank">chat.openai.com</a><br>
+            <strong>شرح مختصر:</strong> روبوت محادثة يعتمد على الذكاء الاصطناعي يساعد المستخدمين في الكتابة والتفكير والإجابة.<br>
+            <div class="MEDIA">
+              <div class="MEDIA-ITEM">
+                <strong>صورة:</strong><br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="80">
+              </div>
+              <div class="MEDIA-ITEM">
+                <strong>فيديو:</strong><br>
+              <iframe width="200" height="113" src="https://youtube.com/shorts/Zagpt1JHLUI?si=cyOusRm0Hd_C7blf" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </td>
+        </tr>
+         <!-- pictory-->
+        <tr>
+            <td><input type="radio" name="app"></td>
+            <td>مدفوع</td>
+            <td>تحويل النص الى فيديو</td>
+            <td>  pictory inc</td>
+            <td>pictory</td>
+            <td><input type="checkbox" onclick="toggleDetails('pictorydetails', this)"></td>
+        </tr>
+        <tr id="pictorydetails"class="details">
+            <td colspan="6">
+                <strong>عنوان الموقع الإلكتروني:</strong> 
+                <a href="https://pictory.ai/" target="_blank">www.pictory.ai</a></br>
+                <strong>شرح مختصر:</strong> 
+                يحول المقالات والنصوص الطويلة الى فيديوهات قصيرة تلقائيا<br>
+                   <DIV class="MEDIA">
+                   <DIV class="MEDIA-ITEM">
+                      <strong>صورة:</strong><br>
+                      <img src="https://customer-wtn437ryaa2ata4r.cloudflarestream.com/ca2ecb2c5e5bb5c574c823d9153c7c04/thumbnails/thumbnail.jpg?time=&height=600" width="80">
+                   </DIV>
+                <div class="MEDIA-ITEM">
+                <strong>فيديو:</strong><br>
+                <iframe width="200" height="113" src="https://www.youtube.com/embed/-1O63xW2Das?si=W8E87kQZ5jzii4yW" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+                
+            </td>
+        </tr>
+
+        <!-- MidJourney -->
+        <tr>
+          <td><input type="radio" name="app"></td>
+          <td>مدفوع</td>
+          <td>تصميم صور فنية واقعية</td>
+          <td>MidJourney Inc</td>
+          <td>MidJourney</td>
+          <td><input type="checkbox" onclick="toggleDetails('midjourneyDetails', this)"></td>
+        </tr>
+        <tr id="midjourneyDetails" class="details">
+          <td colspan="6">
+            <strong>عنوان الموقع الإلكتروني:</strong> 
+            <a href="https://www.midjourney.com/home" target="_blank">www.midjourney.com</a><br>
+            <strong>شرح مختصر:</strong> يولد صورا عالية الدقة عبر وصف نصي باستخدام الذكاء الاصطناعي<br>
+            <div class="MEDIA">
+              <div class="MEDIA-ITEM">
+                <strong>صورة:</strong><br>
+                <img src="https://assets.eweek.com/uploads/2024/09/ew_20240925-midjourney-review.png?w=1024" width="80">
+              </div>
+              <div class="MEDIA-ITEM">
+                <strong>فيديو:</strong><br>
+               <iframe width="200" height="113" src="https://www.youtube.com/embed/zf4z8A-OWBY?si=g0mmc2Z4dV55907K" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+         <!-- deepL-->
+        <tr>
+            <td><input type="radio" name="app"></td>
+            <td>مجاني</td>
+            <td> ترجمة ذكية</td>
+            <td> deebL GmbH</td>
+            <td>DeebL</td>
+            <td><input type="checkbox" onclick="toggleDetails('deepldetails',this)"></td>
+        </tr>
+        <tr id="deepldetails" class="details">
+            <td colspan="6">
+                <strong>عنوان الموقع الإلكتروني:</strong> 
+                <a href="https://www.deepl.com/en/translator" target="_blank">www.deepl.com</a></br>
+                <strong>شرح مختصر:</strong> 
+                يقدم ترجمات دقيقة بجودة عالية باستخدام الذكاء الاصطناعي<br>
+
+                  <dIV class="MEDIA">
+                   <dIV class="MEDIA-ITEM">
+                      <strong>صورة:</strong><br>
+                      <img src="https://www.magnolia-cms.com/dam/jcr:1782b612-0f82-4162-b006-5d2326e6188d/DeepL_logo_square.png" width="80">
+                 </div>
+               <div class="MEDIA-ITEM">
+                <strong>فيديو:</strong><br>
+                <iframe width="200" height="113" src="https://www.youtube.com/embed/yxu2RQy2i-c?si=sHSAPE6ovKNlmGYy" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+                 
+            </td>
+        </tr>
+
+      </table>
+
+    
+      <a href="add_app.html">
+        <button>متابعة</button>
+      </a>
+    </div>
+  </section>
+
+  <script>
+    function toggleDetails(id, checkbox) {
+      const detailsRow = document.getElementById(id);
+      detailsRow.style.display = checkbox.checked ? "table-row" : "none";
+    }
+  </script>
+
+   <!--add_app-->
+   <section class="add-app">
+    <h2>اضافة تطبيق جديد</h2>
+    <form id="appform" onsubmit="return vaildateForm()">
+        <label for="appName">اسم التطبيق: </label>
+        <input type="text" id="appName" placeholder="كانفا:" required>
+        
+
+        <label for="company"> اسم الشركة المطورة:</label>
+        <input type="text" id="company" placeholder="canva pty ltd" required>
+        
+
+        <label for="url"> الموقع الالكتروني:</label>
+        <input type="url" id="url" placeholder="https://canva.com" required>
+
+
+        <label for="free" >هل التطبيق مجاني؟</label>
+        <select id="free" required>
+            <option value="">اختيار...</option>
+            <option value="مجاني">مجاني </option>
+            <option value="مدفوع">مدفوع</option>
+            <option value="مجانس جزئيا">مجاني جزئيا</option>
+       </select>
+       
+       <label for="field">مجال الاستخدام:</label>
+    <select id="field" required>
+      <option value="">اختاري المجال...</option>
+      <option value="Robotics">Robotics</option>
+      <option value="Education">Education</option>
+      <option value="E-Commerce">E-Commerce</option>
+      <option value="Healthcare">Healthcare</option>
+      <option value="Design">Design</option>
+    </select>
+       <label for="desc">شرح مختصر:</label>
+    <textarea id="desc" placeholder="اكتبي شرحاً بسيطاً عن التطبيق..." required></textarea>
+
+    <button type="submit">إرسال</button>
+  </form>
+
+  <p class="success-message" id="successMsg">✅ تم إرسال البيانات بنجاح!</p>
+
+
+    
+   </section>
+   <script src="myFunction.js"></script>
+   
+</body>
+</html>
+
